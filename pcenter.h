@@ -112,8 +112,8 @@ private:
 	Distance *distance;
 	Distance *distance_opt;
 	Distance *distance_copy;
-	std::vector<unsigned int> add_tabu;
-	std::vector<unsigned int> del_tabu;
+	std::vector<int> add_tabu;
+	std::vector<int> del_tabu;
 };
 
 #endif
